@@ -1,10 +1,10 @@
 {
   "private": true,
-  "name": "Incline",
-  "version": "1.0.9",
-  "description": "Landing page set",
+  "name": "BlueEarthProject",
+  "version": "1.0",
+  "description": "nonProfitProject",
   "main": "gulpfile.js",
-  "author": "Simpleqode",
+  "author": "Melissa Taylor",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
