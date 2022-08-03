@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/ico/site.webmanifest">
+    <link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/ico/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="assets/libs/fullpage.js/dist/fullpage.min.css">
+    <link rel="stylesheet" href="assets/libs/highlightjs/styles/codepen-embed.css">
+    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/libs/incline-icons/style.min.css">
+
+    <link rel="stylesheet" href="assets/css/theme.min.css">
+
+    <title>BLUE EARTH</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl navbar-dark  navbar-togglable  fixed-top">
+        <div class="container">
+  
+          <!-- Brand -->
+          <a class="navbar-brand" href="index.html">
+            <svg class="navbar-brand-svg" viewBox="0 0 245 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M0 0 L 20 10 L 0 20 Z" class="navbar-brand-svg-i" fill="currentColor"></path>
+              <path d="M0 30 L 20 40 L 0 50 Z M20 45 L 0 55 L 20 65 Z M0 60 L 20 70 L 0 80 Z" fill="currentColor"></path>
+              <text x="40" y="70" font-family="Arial, sans-serif" font-size="60" font-weight="bold" letter-spacing="-.025em" fill="currentColor">BlueEarth</text>
+            </svg>
+          </a>
+    
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+  
+            <!-- Social -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item-divider">
+                <span class="nav-link">
+                  <span></span>
+                </span>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-github"></i> 
+                  <span class="d-xl-none ml-2">
+                    Github
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-twitter"></i> 
+                  <span class="d-xl-none ml-2">
+                    Twitter
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-instagram"></i> 
+                  <span class="d-xl-none ml-2">
+                    Instagram
+                  </span>
+                </a>
+              </li>
+            </ul>
+  
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarLandings" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarLandings">
+                  <a class="dropdown-item " href="app.html">
+                    Project 1
+                  </a>
+                  <a class="dropdown-item " href="company.html">
+                    Project 2
+                  </a>
+                  <a class="dropdown-item  active " href="fullpage.html">
+                    Project 3
+                  </a>
+                  <a class="dropdown-item " href="product.html">
+                    Project 4
+                  </a>
+                  <a class="dropdown-item " href="real-estate.html">
+                    Project 5
+                  </a>
+                  <a class="dropdown-item " href="restaurant.html">
+                    Rroject 6
+                  </a>
+                  <a class="dropdown-item " href="service.html">
+                    Project 7
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarPages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Resources
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarPages">
+                  <li class="dropright">
+                    <a class="dropdown-item dropdown-toggle" href="#" id="pagesBlog" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Resource 1
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="pagesBlog">
+                      <a class="dropdown-item " href="blog.html">
+                        Resource 2
+                      </a>
+                      <a class="dropdown-item " href="blog-post.html">
+                        Resource 3
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navbarComponents" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Donate
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a href="documentation.html" class="nav-link">
+                  Who We Are
+                </a>
+              </li>
+            </ul>
+  
+          </div> <!-- / .navbar-collapse -->
+    
+        </div> <!-- / .container -->    
+      </nav>
+ <!-- HERO
+    ================================================== -->
+    <section class="section section-top section-full">
+
+        <!-- Video -->
+        <div class="bg-video">
+          <video class="bg-video-media" autoplay playsinline muted>
+            <source src="assets/video/1.mp4" type="video/mp4">
+            HTML video is not supported by your browser.
+          </video>
+        </div>
+  
+        <!-- Overlay -->
+        <div class="bg-overlay"></div>
+  
+        <!-- Triangles -->
+        <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+        <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+  
+        <!-- Content -->
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-8 col-lg-7">
+  
+              <!-- Preheading -->
+              <p class="font-weight-medium text-center text-xs text-uppercase text-white text-muted" data-toggle="animation" data-animation="fadeUp" data-animation-order="0" data-animation-trigger="load">
+                Blue Earth Alliance
+              </p>
+              
+              <!-- Heading -->
+              <h1 class="text-white text-center mb-4" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
+                Projects
+              </h1>
+  
+              <!-- Subheading -->
+              <p class="lead text-white text-muted text-center mb-5" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
+                We have an expanding archive of projects that can easily be navigated by photographer's name, project's topic or project's region.
+              </p>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+
+          <!-- PROJECT TYPES
+    ================================================== -->
+    <section class="section pb-0">
+      
+        <!-- Content -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              
+              <!-- Title -->
+              <h6 class="title">
+                Project Types
+              </h6>
+  
+            </div>
+           
+
+  
+              <!-- Sections -->
+              <div class="row">
+                <div class="col-md-4">
+                  
+                  <!-- Card -->
+                  <div class="card card-sm border-0 mb-3 mb-md-0">
+                      <!-- Title -->
+             
+                    
+                    <!-- Image -->
+                    <img src="assets/img/16.jpg" alt="..." class="card-img-top">
+  
+                    <!-- Body -->
+                    <div class="card-body">
+                      
+                      <!-- Title -->
+                      <h5 class="card-title">
+                        Environment Impacts of Climate Change
+                      </h5>
+  
+                      <!-- Text -->
+                      <ul class="card-text list-inline list-unstyled">
+                        <li class="list-inline-item">
+                          <a href="#">
+                            <i class="fab fa-github"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item ml-3">
+                          <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item ml-3">
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                        </li>
+                      </ul>
+  
+                    </div>
+  
+                  </div> <!-- / .card -->
+  
+                </div>
+                <div class="col-md-4">
+                  
+                  <!-- Card -->
+                  <div class="card card-sm border-0 mb-3 mb-md-0">
+                    
+                    <!-- Image -->
+                    <img src="assets/img/17.jpg" alt="..." class="card-img-top">
+  
+                    <!-- Body -->
+                    <div class="card-body">
+                      
+                      <!-- Title -->
+                      <h5 class="card-title">
+                        Social Justice
+                      </h5>
+  
+                      <!-- Text -->
+                      <ul class="card-text list-inline list-unstyled">
+                        <li class="list-inline-item">
+                          <a href="#">
+                            <i class="fab fa-github"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item ml-3">
+                          <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item ml-3">
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                        </li>
+                      </ul>
+  
+                    </div>
+  
+                  </div> <!-- / .card -->
+  
+                </div>
+                <div class="col-md-4">
+                  
+                  <!-- Card -->
+                  <div class="card card-sm border-0 mb-3 mb-md-0">
+                    
+                    <!-- Image -->
+                    <img src="assets/img/18.jpg" alt="..." class="card-img-top">
+  
+                    <!-- Body -->
+                    <div class="card-body">
+                      
+                      <!-- Title -->
+                      <h5 class="card-title">
+                        Indigenous Cultures
+                      </h5>
+  
+                      <!-- Text -->
+                      <ul class="card-text list-inline list-unstyled">
+                        <li class="list-inline-item">
+                          <a href="#">
+                            <i class="fab fa-github"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item ml-3">
+                          <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item ml-3">
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                        </li>
+                      </ul>
+  
+                    </div>
+  
+                  </div> <!-- / .card -->
+  
+                </div>
+              </div> <!-- / .row -->
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+<!-- ENVIRONMENTAL IMPACTS OF CLIMATE CHANGE
+    ================================================== -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-2">
+                
+                <!-- Title -->
+                <h6 class="title">
+                  Environmental Impacts 
+                </h6>
+    
+              </div>
+             
+        <!-- Content -->
+        <div class="container">
+          <div class="row no-gutters align-items-stretch">
+            <div class="col-md-4">
+              
+              <!-- Card -->
+              <div class="card card-tall border-0 mb-3 md-md-0">
+                
+                <!-- Image -->
+                <div class="bg-cover" style="background-image: url(assets/img/21.jpg)"></div>
+  
+                <!-- Overlay -->
+                <div class="bg-overlay"></div>
+  
+                <!-- Body -->
+                <div class="card-body">
+  
+                  <!-- Icon -->
+                  <div class="card-icon text-primary">
+                    <span class="icon icon-businessman"></span>
+                  </div>
+                
+                  <!-- Title -->
+                  <h4 class="card-title text-white">
+                    Threshold, Samantha Swan
+                  </h4>
+  
+                  <!-- Text -->
+                  <p class="card-text text-white text-muted mb-0">
+                    Scattered around the ocean are areas of such significance, that their protection is scientifically recognized with the ability to impact global ocean health.
+                  </p>
+  
+                </div>
+  
+              </div> <!-- / .card -->
+  
+            </div>
+            <div class="col-md-4">
+              
+              <!-- Card -->
+              <div class="card card-tall card-standout shadow border-0 mb-3 md-md-0">
+                
+                <!-- Image -->
+                <div class="bg-cover" style="background-image: url(assets/img/22.jpg)"></div>
+  
+                <!-- Overlay -->
+                <div class="bg-overlay"></div>
+  
+                <!-- Body -->
+                <div class="card-body">
+  
+                  <!-- Icon -->
+                  <div class="card-icon text-primary">
+                    <span class="icon icon-case"></span>
+                  </div>
+                
+                  <!-- Title -->
+                  <h4 class="card-title text-white">
+                    Our Liquid Mirror, Tom Reese
+                  </h4>
+  
+                  <!-- Text -->
+                  <p class="card-text text-white text-muted mb-0">
+                    It feels almost absurd, having to state this: Healthy water is essential to life.
+                  </p>
+  
+                </div>
+  
+              </div> <!-- / .card -->
+  
+            </div>
+            <div class="col-md-4">
+              
+              <!-- Card -->
+              <div class="card card-tall border-0 mb-3 md-md-0">
+                
+                <!-- Image -->
+                <div class="bg-cover" style="background-image: url(assets/img/23.jpg)"></div>
+  
+                <!-- Overlay -->
+                <div class="bg-overlay"></div>
+  
+                <!-- Body -->
+                <div class="card-body">
+  
+                  <!-- Icon -->
+                  <div class="card-icon text-primary">
+                    <span class="icon icon-truck"></span>
+                  </div>
+                
+                  <!-- Title -->
+                  <h4 class="card-title text-white">
+                    New Foundland Global Warming: Climate Change and the Fishing Industry Impact, Paul Marotta
+                  </h4>
+  
+                  <!-- Text -->
+                  <p class="card-text text-white text-muted mb-0">
+                    During the mid 1500s, salted, preserved cod caught in the North Atlantic accounted for more than half of all the fish eaten in Europe as Portugal, Spain, France and Britain put enormous pressure on cod stocks.
+                  </p>
+  
+                </div>
+  
+              </div> <!-- / .card -->
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+<!-- SOCIAL JUSTICE
+    ================================================== -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-2">
+                
+                <!-- Title -->
+                <h6 class="title">
+                  Social Justice
+                </h6>
+    
+              </div>
+             
+      
+        <!-- Content -->
+        <div class="container">
+          <div class="row no-gutters align-items-stretch">
+            <div class="col-md-4">
+              
+              <!-- Card -->
+              <div class="card card-tall border-0 mb-3 md-md-0">
+                
+                <!-- Image -->
+                <div class="bg-cover" style="background-image: url(assets/img/21.jpg)"></div>
+  
+                <!-- Overlay -->
+                <div class="bg-overlay"></div>
+  
+                <!-- Body -->
+                <div class="card-body">
+  
+                  <!-- Icon -->
+                  <div class="card-icon text-primary">
+                    <span class="icon icon-businessman"></span>
+                  </div>
+                
+                  <!-- Title -->
+                  <h4 class="card-title text-white">
+                    Knife Fight City and The Kingdom of Dust, Richard Street
+                  </h4>
+  
+                  <!-- Text -->
+                  <p class="card-text text-white text-muted mb-0">
+                    Knife Fight City explores an unacknowledged variety of American apartheid in Huron, poorest town in California, where an American peasantry slaves for industrialized agriculture in a giant farm labor exploitation camp.
+
+                  </p>
+  
+                </div>
+  
+              </div> <!-- / .card -->
+  
+            </div>
+            <div class="col-md-4">
+              
+              <!-- Card -->
+              <div class="card card-tall card-standout shadow border-0 mb-3 md-md-0">
+                
+                <!-- Image -->
+                <div class="bg-cover" style="background-image: url(assets/img/22.jpg)"></div>
+  
+                <!-- Overlay -->
+                <div class="bg-overlay"></div>
+  
+                <!-- Body -->
+                <div class="card-body">
+  
+                  <!-- Icon -->
+                  <div class="card-icon text-primary">
+                    <span class="icon icon-case"></span>
+                  </div>
+                
+                  <!-- Title -->
+                  <h4 class="card-title text-white">
+                    Shadow Lives, USA, Jon Lowenstein
+                  </h4>
+  
+                  <!-- Text -->
+                  <p class="card-text text-white text-muted mb-0">
+                    Shadow Lives USA is a decade-long project that humanizes, in a highly intimate fashion, the experiences and lives of the millions of men and women who leave their homes in search of a better life in the United States. 
+                  </p>
+  
+                </div>
+  
+              </div> <!-- / .card -->
+  
+            </div>
+            <div class="col-md-4">
+              
+              <!-- Card -->
+              <div class="card card-tall border-0 mb-3 md-md-0">
+                
+                <!-- Image -->
+                <div class="bg-cover" style="background-image: url(assets/img/23.jpg)"></div>
+  
+                <!-- Overlay -->
+                <div class="bg-overlay"></div>
+  
+                <!-- Body -->
+                <div class="card-body">
+  
+                  <!-- Icon -->
+                  <div class="card-icon text-primary">
+                    <span class="icon icon-truck"></span>
+                  </div>
+                
+                  <!-- Title -->
+                  <h4 class="card-title text-white">
+                    Seven Doors, Greg Constantine
+                  </h4>
+  
+                  <!-- Text -->
+                  <p class="card-text text-white text-muted mb-0">
+                    After spending the past twelve years working on the project Nowhere People, this next phase of the project expands the work to use photography, multimedia and other forms of visual storytelling to expose the impact of immigration detention on stateless people as well as migrants, refugees and asylum seekers around the world.
+                  </p>
+  
+                </div>
+  
+              </div> <!-- / .card -->
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+      <!-- Indigenous Cultures
+    ================================================== -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-2">
+                
+                <!-- Title -->
+                <h6 class="title">
+                  Indigenous Cultures
+                </h6>
+    
+              </div>
+      
+        <!-- Content -->
+        <div class="container">
+          <div class="row no-gutters align-items-stretch">
+            <div class="col-md-4">
+              
+              <!-- Card -->
+              <div class="card card-tall border-0 mb-3 md-md-0">
+                
+                <!-- Image -->
+                <div class="bg-cover" style="background-image: url(assets/img/21.jpg)"></div>
+  
+                <!-- Overlay -->
+                <div class="bg-overlay"></div>
+  
+                <!-- Body -->
+                <div class="card-body">
+  
+                  <!-- Icon -->
+                  <div class="card-icon text-primary">
+                    <span class="icon icon-businessman"></span>
+                  </div>
+                
+                  <!-- Title -->
+                  <h4 class="card-title text-white">
+                    Katutubong Pilipino, Jacob Maentz
+                  </h4>
+  
+                  <!-- Text -->
+                  <p class="card-text text-white text-muted mb-0">
+                    Project Katutubong Pilipino is a long-term documentary project with the aim of showcasing the beauty and depth of Philippine indigenous cultures and highlighting the many environmental and social issues these groups are currently facing.
+                  </p>
+  
+                </div>
+  
+              </div> <!-- / .card -->
+  
+            </div>
+            <div class="col-md-4">
+              
+              <!-- Card -->
+              <div class="card card-tall card-standout shadow border-0 mb-3 md-md-0">
+                
+                <!-- Image -->
+                <div class="bg-cover" style="background-image: url(assets/img/22.jpg)"></div>
+  
+                <!-- Overlay -->
+                <div class="bg-overlay"></div>
+  
+                <!-- Body -->
+                <div class="card-body">
+  
+                  <!-- Icon -->
+                  <div class="card-icon text-primary">
+                    <span class="icon icon-case"></span>
+                  </div>
+                
+                  <!-- Title -->
+                  <h4 class="card-title text-white">
+                    Indigenous Autonomy in Mexico, Scott Brennan
+                  </h4>
+  
+                  <!-- Text -->
+                  <p class="card-text text-white text-muted mb-0">
+                    The photographic project focuses on the coastal town/municipality of Santa Maria de Ostula on the violent and largely undeveloped coast of Michoacan in southern Mexico.
+                  </p>
+  
+                </div>
+  
+              </div> <!-- / .card -->
+  
+            </div>
+            <div class="col-md-4">
+              
+              <!-- Card -->
+              <div class="card card-tall border-0 mb-3 md-md-0">
+                
+                <!-- Image -->
+                <div class="bg-cover" style="background-image: url(assets/img/23.jpg)"></div>
+  
+                <!-- Overlay -->
+                <div class="bg-overlay"></div>
+  
+                <!-- Body -->
+                <div class="card-body">
+  
+                  <!-- Icon -->
+                  <div class="card-icon text-primary">
+                    <span class="icon icon-truck"></span>
+                  </div>
+                
+                  <!-- Title -->
+                  <h4 class="card-title text-white">
+                    Title of project, Artists full name
+                  </h4>
+  
+                  <!-- Text -->
+                  <p class="card-text text-white text-muted mb-0">
+                    Description of project.
+                  </p>
+  
+                </div>
+  
+              </div> <!-- / .card -->
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+      
+
+
+  <!-- FOOTER
+        ================================================== -->
+        <section class="fp-section fp-auto-height">
+            <footer class="section bg-dark">
+    
+              <!-- Blue Earth Alliance Logo -->
+              <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+              <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+    
+              <!--Content -->
+              <div class="container">
+                <div class="row align-self-center">
+                  <div class="col-md-auto">
+    
+                    <!-- Brand -->
+                    <p>
+                      <a href="#" class="footer-brand text-white">
+                        <svg class="footer-brand-svg" viewBox="0 0 235 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <path d="M0 0 L 20 10 L 0 20 Z" class="text-primary" fill="currentColor"></path>
+                          <path d="M0 30 L 20 40 L 0 50 Z M20 45 L 0 55 L 20 65 Z M0 60 L 20 70 L 0 80 Z" fill="currentColor"></path>
+                          <text x="40" y="70" font-family="Arial, sans-serif" font-size="60" font-weight="bold" letter-spacing="-.025em" fill="currentColor">incline.</text>
+                        </svg>
+                      </a>
+                    </p>
+            
+                  </div>
+                  <div class="col-md">
+            
+                    <!-- Links -->
+                    <ul class="list-unstyled list-inline text-md-right">
+                      <li class="list-inline-item mr-2">
+                        <a href="#" class="text-white">
+                          Home
+                        </a>
+                      </li>
+                      <li class="list-inline-item mr-2">
+                        <a href="#" class="text-white">
+                          Projects
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="text-white">
+                          Resources
+                        </a>
+                      </li>
+                      
+                      <li class="list-inline-item mr-2">
+                        <a href="#" class="text-white">
+                          Donate
+                        </a>
+                      </li>
+                     
+                      <li class="list-inline-item mr-2">
+                        <a href="#" class="text-white">
+                          Events
+                        </a>
+                      </li>
+                      <li class="list-inline-item mr-2">
+                        <a href="#" class="text-white">
+                          Who We Are
+                        </a>
+                      </li>
+                    </ul>
+    
+                  </div>
+                </div> <!-- / .row -->
+                <div class="row align-items-center">
+                  <div class="col-md">
+            
+                    <!-- Copyright -->
+                    <p class="text-white text-muted">
+                      <small>
+                        &copy; Copyright <span class="current-year"></span> Blue Earth Alliance. All rights reserved.
+                      </small>
+                    </p>
+    
+                  </div>
+                  <div class="col-md">
+            
+                    <!-- Social links -->
+                    <ul class="list-inline list-unstyled text-md-right">
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item ml-3">
+                        <a href="#">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item ml-3">
+                        <a href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                    </ul>
+    
+                  </div>
+                </div> <!-- / .row -->
+              </div> <!-- / .container -->
+    
+            </footer>
+          </section>
+    
+        </main>
+
+
+
+
+
+
+
+
+
+
+     
+      <!-- JAVASCRIPT
+      ================================================== -->
+      <!-- Global JS -->
+      <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script>
+  
+      <!-- Plugins JS -->
+      <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+      <script src="assets/libs/flickity-fade/flickity-fade.js"></script>
+      <script src="assets/libs/jquery-parallax.js/parallax.min.js"></script>
+      <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+      <script src="assets/libs/waypoints/lib/shortcuts/inview.min.js"></script>
+      <script src="assets/libs/fullpage.js/vendors/scrolloverflow.min.js"></script>
+      <script src="assets/libs/fullpage.js/dist/fullpage.min.js"></script>
+      <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+  
+      <!-- Theme JS -->
+      <script src="assets/js/theme.min.js"></script>
+  
+
+</body>
+</html>
