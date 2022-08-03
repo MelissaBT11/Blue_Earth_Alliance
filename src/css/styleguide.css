@@ -13,5 +13,24 @@ ul li {
 }
 .nav-link:hover {
     font-weight: bold;
-    color: white !important;
+    color: #80C8E0 !important;
+}
+
+.btn {
+    background-color: #DADC8C;
+    color: #515238;
+}
+
+.btn:hover {
+    background-color: #DADC8C;
+    color: #B8BA5F;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    border-color: #DADC8C;
+}
+::selection {
+    background-color: #DADC8C;
+    color: #fff;
 }
