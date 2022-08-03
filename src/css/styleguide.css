@@ -1,3 +1,17 @@
-h1 {
+ul li {
+    position: relative; 
+    display: inline-block;
+  }
+  h1 {
     font-family: "Archivo";
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #a9a9a9;
+}
+.dropdown-item {
+    font-family: "Archivo";
+    color: #015182;
+}
+.nav-link:hover {
+    font-weight: bold;
+    color: white !important;
 }
