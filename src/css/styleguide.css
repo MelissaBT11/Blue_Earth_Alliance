@@ -1,0 +1,45 @@
+ul li {
+    position: relative; 
+    display: inline-block;
+  }
+  h1 {
+    font-family: "Archivo";
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #a9a9a9;
+}
+
+h5 {
+    font-family: "Archivo" !important;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #a9a9a9;
+}
+body {
+    font-family: "Poppins" !important;
+}
+.dropdown-item {
+    font-family: "Archivo";
+    color: #015182;
+}
+.nav-link:hover {
+    font-weight: bold;
+    color: #80C8E0 !important;
+}
+
+.btn {
+    background-color: #DADC8C;
+    color: #515238;
+}
+
+.btn:hover {
+    background-color: #DADC8C;
+    color: #B8BA5F;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    border-color: #DADC8C;
+}
+::selection {
+    background-color: #DADC8C;
+    color: #fff;
+}
