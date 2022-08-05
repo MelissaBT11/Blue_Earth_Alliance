@@ -43,3 +43,16 @@ body {
     background-color: #DADC8C;
     color: #fff;
 }
+
+.navbar-logo {
+   max-width: 100%;
+   height: auto;
+}
+
+.hero-image {
+  background-position: top;
+}
+
+.logo {
+    max-width: 100px;
+}
