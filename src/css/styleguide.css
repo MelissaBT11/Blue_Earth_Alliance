@@ -8,13 +8,48 @@ ul li {
     text-shadow: 1px 1px #a9a9a9;
 }
 
+h2 {
+    font-family: "Archivo";
+    letter-spacing: 2px;
+    color: #015182;
+    font-size: 36px;
+}
+
+h4 {
+    font-family: "Archivo" !important;
+    letter-spacing: 2px;
+    color: white;
+}
+
 h5 {
     font-family: "Archivo" !important;
     letter-spacing: 2px;
-    text-shadow: 1px 1px #a9a9a9;
+    color: #015182;
+    font-size: 25px;
+}
+
+.line1 {
+    font-size: 36px;
+}
+.line2 {
+    font-size: 48px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.line3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 body {
     font-family: "Poppins" !important;
+    color: #015182;
+}
+p {
+    font-family: "Poppins" !important;
+}
+p1 {
+    font-family: "Poppins" !important;
+    color: white !important;
 }
 .dropdown-item {
     font-family: "Archivo";
@@ -22,6 +57,10 @@ body {
 }
 .nav-link:hover {
     font-weight: bold;
+    color: #80C8E0 !important;
+}
+
+.show>.nav-link {
     color: #80C8E0 !important;
 }
 
@@ -55,4 +94,9 @@ body {
 
 .logo {
     max-width: 100px;
+}
+.block3 {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-color:#015182;
 }
