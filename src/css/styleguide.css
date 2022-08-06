@@ -67,6 +67,7 @@ p1 {
     font-family: "Poppins" !important;
     color: white !important;
 }
+
 .dropdown-item {
     font-family: "Archivo";
     color: #015182;
@@ -76,9 +77,11 @@ p1 {
     color: #80C8E0 !important;
 }
 
+
 .show>.nav-link {
     color: #80C8E0 !important;
 }
+
 
 .btn {
     background-color: #DADC8C;
@@ -97,6 +100,7 @@ p1 {
 ::selection {
     background-color: #DADC8C;
     color: #fff;
+
 }
 
 .navbar-logo {
