@@ -35,6 +35,12 @@ h6 {
     padding-top:0px;
     padding-bottom: 50px;
 }
+h7 {
+    font-family: "Archivo" !important;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 25px;
+}
 
 .heading3 {
     font-family: "Archivo" !important;
@@ -111,6 +117,9 @@ p1 {
 .hero-image {
   background-position: top;
 }
+.hero-image-resources {
+    background-position: bottom;
+}
 
 .logo {
     max-width: 100px;
@@ -159,3 +168,17 @@ a {
 .footer-layout {
     align-items: center;
 }
+body{
+    padding: 2rem 0rem;
+  }
+  .card-img-overlay {
+    background-color: rgba(#000, 0.2);
+    top: 190px;
+    text-shadow: 1px 1px grey;
+  }
+  .card-resources {
+      display: inline-block;
+  }
+  .resource-cards {
+      padding-top: 65px;
+  }
