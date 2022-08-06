@@ -7,6 +7,67 @@ ul li {
     letter-spacing: 2px;
     text-shadow: 1px 1px #a9a9a9;
 }
+
+h2 {
+    font-family: "Archivo";
+    letter-spacing: 2px;
+    color: #015182;
+    font-size: 36px;
+}
+
+h4 {
+    font-family: "Archivo" !important;
+    letter-spacing: 2px;
+    color: white;
+}
+
+h5 {
+    font-family: "Archivo" !important;
+    letter-spacing: 2px;
+    color: #015182;
+    font-size: 25px;
+}
+
+h6 {
+    font-family: "Poppins" !important;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top:0px;
+    padding-bottom: 50px;
+}
+
+.heading3 {
+    font-family: "Archivo" !important;
+    letter-spacing: 2px;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.line1 {
+    font-size: 36px;
+}
+.line2 {
+    font-size: 48px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.line3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+body {
+    font-family: "Poppins" !important;
+    color: #015182;
+}
+p {
+    font-family: "Poppins" !important;
+}
+p1 {
+    font-family: "Poppins" !important;
+    color: white !important;
+}
+
 .dropdown-item {
     font-family: "Archivo";
     color: #015182;
@@ -15,6 +76,12 @@ ul li {
     font-weight: bold;
     color: #80C8E0 !important;
 }
+
+
+.show>.nav-link {
+    color: #80C8E0 !important;
+}
+
 
 .btn {
     background-color: #DADC8C;
@@ -33,4 +100,62 @@ ul li {
 ::selection {
     background-color: #DADC8C;
     color: #fff;
+
+}
+
+.navbar-logo {
+   max-width: 100%;
+   height: auto;
+}
+
+.hero-image {
+  background-position: top;
+}
+
+.logo {
+    max-width: 100px;
+}
+.block3 {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-color:#015182;
+}
+.icon-arrow-right {
+    color: white;
+}
+
+.icon-businessman {
+    color: white;
+}
+.icon-layers {
+    color: white;
+}
+
+.hero-image2 {
+    background-position: top;
+    opacity:0.4;
+}
+.testimonial-slider-item-inner {
+    border-color: #80C8E0 !important;
+}
+.email {
+  max-width: 100%;
+}
+.email-sign-up {
+    margin-right: 15px;
+}
+.emailText {
+    margin-top: 55px;
+}
+.lastBlock {
+    background-color: #BFD4E0;
+}
+.footer-text {
+    color:#015182;
+}
+a {
+    color: #015182;
+}
+.footer-layout {
+    align-items: center;
 }
