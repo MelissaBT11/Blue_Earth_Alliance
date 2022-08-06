@@ -28,6 +28,22 @@ h5 {
     font-size: 25px;
 }
 
+h6 {
+    font-family: "Poppins" !important;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top:0px;
+    padding-bottom: 50px;
+}
+
+.heading3 {
+    font-family: "Archivo" !important;
+    letter-spacing: 2px;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
 .line1 {
     font-size: 36px;
 }
@@ -99,4 +115,41 @@ p1 {
     padding-top: 125px;
     padding-bottom: 125px;
     background-color:#015182;
+}
+.icon-arrow-right {
+    color: white;
+}
+
+.icon-businessman {
+    color: white;
+}
+.icon-layers {
+    color: white;
+}
+
+.hero-image2 {
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.226) !important;
+}
+.testimonial-slider-item-inner {
+    border-color: #80C8E0 !important;
+}
+.email {
+  max-width: 600px;
+  height: 600px; 
+}
+.email-sign-up {
+    margin-right: 15px;
+}
+.emailText {
+    margin-top: 55px;
+}
+.lastBlock {
+    background-color: #BFD4E0;
+}
+.footer-text {
+    color:#015182;
+}
+a {
+    color: #015182;
 }
