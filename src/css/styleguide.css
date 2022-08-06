@@ -129,14 +129,13 @@ p1 {
 
 .hero-image2 {
     background-position: top;
-    background-color: rgba(0, 0, 0, 0.226) !important;
+    opacity:0.4;
 }
 .testimonial-slider-item-inner {
     border-color: #80C8E0 !important;
 }
 .email {
-  max-width: 600px;
-  height: 600px; 
+  max-width: 100%;
 }
 .email-sign-up {
     margin-right: 15px;
@@ -152,4 +151,7 @@ p1 {
 }
 a {
     color: #015182;
+}
+.footer-layout {
+    align-items: center;
 }
